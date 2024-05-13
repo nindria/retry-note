@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.note {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2f9485;
+  overflow: auto;
+  position: relative;
+}
+.custom-header {
+  background-color: #20665b; 
+  color: #fff; 
+  padding-block-end: 10px; 
+  text-align: center;
+  display: flex;
+  width: 100%;
+  
+}
+.logo{
+  width: 10%;
+}
+.custom-footer {
+  background-color: #284b80; 
+  color: #fff; 
+  padding-block: 10px; 
+  text-align: center; 
+  position: relative; 
+  bottom: 0; 
+  width: 100%; 
+
+}
